@@ -24,7 +24,7 @@ When Bungie was about to release the Witch Queen expansion for Destiny 2 in 2022
 ## Sunset items
 Now, I mentioned outdated items, which begs an explanation for those who are either new to Destiny or haven't played it at all. A few years into Destiny 2, Bungie noticed that many players weren't using the new items that came with every season, and that certain weapons still dominated the inventories of players even when they were years old. Bungie determined that, with every season, only the items released in the past year of Destiny would still be able to be updated to the new level cap by players. This was called Sunsetting... and it didn't last very long. It was a very unpopular decision among players, and soon they backtracked and no more items were sunset.
 
-At that point, however, a lot if items had already gone thorugh the sunsetting proccess, and they stayed that way. This is why we have "outdated" items in Destiny.
+At that point, however, a lot of items had already gone thorugh the sunsetting proccess, and they stayed that way. This is why we have "outdated" items in Destiny.
 
 # Work in Progress
 There have been many vault cleanings, and they are all recorded in extremely long videos. It also takes a lot of time to manually input all of the data into the spreadsheet. If you're reading this, that means the data available will be updated as soon as I am able to do it.
