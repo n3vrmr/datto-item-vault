@@ -15,7 +15,7 @@ So, now that you understand the Vault system in Destiny, it's time to explain wh
 ## Datto and the Vault Cleanings
 [Youtuber](https://www.youtube.com/@DattoDoesDestiny) and [Twitch Streamer](https://www.twitch.tv/datto) Datto is the biggest content creator in the Destiny community, and not just in numbers. Let's put it this way: look up how many years the Destiny franchise has existed for, then add 1 to that. That's how many years Datto has been covering Destiny in his Youtube channel.
 
-Datto is also of the opinion that nobody should need more Vault space than Bungie has already given us. This opinion is all well and good, especially because most players aren't getting good enough loot to justify keeping it in your Vault. The problem is that a lot of other content creators play the game _a lot_, and get _a lot_ of good items as a result. Some have it worse than others, but many of them seem to almost reach the limit of their Vaults.
+Datto is also of the opinion that nobody should need more Vault space than Bungie has already given us. This opinion is all well and good, especially because most players aren't getting good enough loot to justify keeping it in your Vault. But, content creators play the game _a lot_, and get _a lot_ of good items as a result. Some have it worse than others, but many of them seem to almost reach the limit of their Vaults.
 
 Here's the problem: every year, Bungie releases a new expansion to the game, which all Destiny players know will bring more items, meaning more loot to collect... and put in your Vault. Maybe it's just about putting the old stuff in there and using the new items, or maybe it's about preferring the old items you were already comfortable with. Either way, items are going to end up in your Vault.
 
