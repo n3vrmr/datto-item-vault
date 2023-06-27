@@ -32,5 +32,76 @@ There have been many vault cleanings, and they are all recorded in extremely lon
 # Regarding the data
 I am trying to collect as much information as possible on all deleted items, which sometimes means information that is not shown in the videos, such as the first two perks of a weapon roll, or a weapon's masterwork (when it is not masterworked). That means the data will be, in many parts, incomplete. However, I stil think there can be some useful insights by recording all of this in a dataset for future analysis.
 
+In the meantime, you can find description of each column below:
+
+## creator_name (string)
+Contains the name of the content creator doing the Vault Cleaning with Datto.
+
+## video_link (string)
+Link to the Youtube video of the Vault Cleaning.
+
+## item (string)
+Name of the deleted item.
+
+## rarity (string)
+Indicates item's rarity level. In Destiny, the rarity of an item can be Common, Uncommon, Rare, Legendary, or Exotic.
+
+## type (string)
+Indicates what kind of item it is, usually Weapon or Armor.
+
+## class (string)
+Indicates which kind of item it is within its type. For Armor, indicates which character class it belongs to. This name was chosen because it is very likely that Bungie utilized OOP to identify common attributes and functions of certain Weapon types.
+
+## slot (string)
+Which character slot the item belongs to. For Weapons, can be either Kinetic, Energy or Power. For Armor, Head, Arms, Chest, Legs or Class Item.
+
+## season (int-64)
+Indicates which season this item attributed to.
+
+## sunset (bool)
+Indicates whether the item is sunset or not.
+
+## masterworked (bool)
+Indicates whether the item has been masterworked or not.  If an Armor piece is masterworked, all of its attributes will be increased by 2.
+
+## masterwork_trait (string)
+Only non-null in case the item is a Weapon. Indicates which attribute of the weapon is the masterwork on that weapon. If the previous column holds a value of `True`, this attribute is increased by a value of 10. This value is automatically added to the stats of a Weapon.
+
+## craftable (bool)
+Only non-null in case the item is a Weapon. Indicates whether a Weapon can be crafted or not.
+
+## crafted (bool)
+Only non-null in case the item is a Weapon. Indicates whether this particular instance of the Weapon has been crafted or not.
+
+## pinnacle/ritual (bool)
+Only non-null in case the item is a Weapon. Indicates whether this Weapon was the Pinnacle or Ritual Weapon of a particular season or not.
+
+## element (string)
+Indicates the damage type of the Weapon, or elemental affinity of the Armor piece (for Destiny's old armor system). NaN if the damage type is Kinetic.
+
+## intrinsic (string)
+Only non-null in case of Exotic items. Contains name of the main Exotic perk.
+
+## exotic_catalyst (string)
+Only non-null in case of Exotic Weapons. Contains name of the Exotic Catalyst perk, in case it is activated in the weapon.
+
+## frame (string)
+Only non-null in case of non-Exotic Weapons. Contains the designated Weapon frame, which usually indicates recoil patterns, impact and RPM on the Weapons.
+
+## perk_1 (string)
+Only non-null in case the item is a Weapon. Contains the name of the selected perk in the first perk column of a Weapon at the moment of deletion. May be NaN if this is not shown in the video.
+
+## perk_2 (string)
+Only non-null in case the item is a Weapon. Contains the name of the selected perk in the second perk column of a Weapon at the moment of deletion. May be NaN if this is not shown in the video.
+
+## perk_3 (string)
+Only non-null in case the item is a Weapon. Contains the name of the selected perk in the third perk column of a Weapon at the moment of deletion.
+
+## perk_4 (string)
+Only non-null in case the item is a Weapon. Contains the name of the selected perk in the fourth perk column of a Weapon at the moment of deletion.
+
+## origin_trait (string)
+Contains the name of the item's origin trait. Origin traits were only introduced in season 16 with the Witch Queen expansion, therefore items from previous seasons do not have origin traits.
+
 # Regarding the analysis
 My analysis will only begin once I finish the dataset, which will take a long time, as I mentioned above. Nonetheless, if you want to use the partial data for your own analysis, feel free to do so! I encourage anyone willing to use this dataset. If you find any errors, you can contact me through my email to let me know.
