@@ -44,7 +44,7 @@ Link to the Youtube video of the Vault Cleaning.
 Name of the deleted item.
 
 ## rarity (string)
-Indicates item's rarity level. In Destiny, the rarity of an item can be Common, Uncommon, Rare, Legendary, or Exotic.
+Indicates the item's rarity level. In Destiny, the rarity of an item can be Common, Uncommon, Rare, Legendary, or Exotic.
 
 ## type (string)
 Indicates what kind of item it is, usually Weapon or Armor.
@@ -56,13 +56,13 @@ Indicates which kind of item it is within its type. For Armor, indicates which c
 Which character slot the item belongs to. For Weapons, can be either Kinetic, Energy or Power. For Armor, Head, Arms, Chest, Legs or Class Item.
 
 ## season (int-64)
-Indicates which season this item attributed to.
+Indicates which Destiny 2 season this item is attributed to.
 
 ## sunset (bool)
 Indicates whether the item is sunset or not.
 
 ## masterworked (bool)
-Indicates whether the item has been masterworked or not.  If an Armor piece is masterworked, all of its attributes will be increased by 2.
+Indicates whether the item has been masterworked or not. If an Armor piece is masterworked, all of its attributes (stats) will be increased by 2.
 
 ## masterwork_trait (string)
 Only non-null in case the item is a Weapon. Indicates which attribute of the weapon is the masterwork on that weapon. If the previous column holds a value of `True`, this attribute is increased by a value of 10. This value is automatically added to the stats of a Weapon.
