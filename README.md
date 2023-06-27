@@ -65,7 +65,7 @@ Indicates whether the item is sunset or not.
 Indicates whether the item has been masterworked or not. If an Armor piece is masterworked, all of its attributes (stats) will be increased by 2.
 
 ## masterwork_trait (string)
-Only non-null in case the item is a Weapon. Indicates which attribute of the weapon is the masterwork on that weapon. If the previous column holds a value of `True`, this attribute is increased by a value of 10. This value is automatically added to the stats of a Weapon.
+Only non-null in case the item is a Weapon. Indicates which weapon attribute (stats) is the masterwork on that weapon. If the previous column holds a value of `True`, this attribute is increased by a value of 10. This value is automatically added to the stats of a Weapon.
 
 ## craftable (bool)
 Only non-null in case the item is a Weapon. Indicates whether a Weapon can be crafted or not.
