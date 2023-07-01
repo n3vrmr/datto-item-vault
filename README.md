@@ -32,7 +32,7 @@ There have been many vault cleanings, and they are all recorded in extremely lon
 # Regarding the data
 I am trying to collect as much information as possible on all deleted items, which sometimes means information that is not shown in the videos, such as the first two perks of a weapon roll, or a weapon's masterwork (when it is not masterworked). That means the data will be, in many parts, incomplete. However, I stil think there can be some useful insights by recording all of this in a dataset for future analysis.
 
-In the meantime, you can find description of each column below:
+In the meantime, you can find descriptions of each column below:
 
 ## creator_name (string)
 Contains the name of the content creator doing the Vault Cleaning with Datto.
