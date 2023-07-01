@@ -155,7 +155,7 @@ Apply only to GLs and rockets.
 Apply only to swords.
 
 ## Armor Stats (int-64)
-The last columns contain the attributes of armor pieces. Each of these stats influences the character's stats when the armor is equipped.
+The last columns contain the attributes of armor pieces. Each of these stats influence the character's own stats when the armor is equipped.
 
 ### Mobility
 Influences character movement. For Hunters, influences class ability recharge rate.
