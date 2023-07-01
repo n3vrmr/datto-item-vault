@@ -56,7 +56,7 @@ Indicates which kind of item it is within its type. For Armor, indicates which c
 Which character slot the item belongs to. For Weapons, can be either Kinetic, Energy or Power. For Armor, Head, Arms, Chest, Legs or Class Item.
 
 ## season (int-64)
-Indicates which Destiny 2 season this item is attributed to.
+Indicates which Destiny 2 season this item is attributed to. This is determined by what icon appears on the weapon in the videos.
 
 ## sunset (bool)
 Indicates whether the item is sunset or not.
@@ -101,7 +101,82 @@ Only non-null in case the item is a Weapon. Contains the name of the selected pe
 Only non-null in case the item is a Weapon. Contains the name of the selected perk in the fourth perk column of a Weapon at the moment of deletion.
 
 ## origin_trait (string)
-Contains the name of the item's origin trait. Origin traits were only introduced in season 16 with the Witch Queen expansion, therefore items from previous seasons do not have origin traits.
+Contains the name of the item's origin trait. Origin traits were only introduced in season 16 with the Witch Queen expansion, therefore items from previous seasons generally do not have origin traits. However, some weapons from seasons prior to The Witch Queen gained reprised versions with origin traits, but the icon that indicates which season that weapon instance was incorporated into the game _did not change_.
+
+## Weapon Stats (int-64)
+The next columns will contain the attributes of weapons. I won't pretend to know what each stat means, since I'm only vaguely aware of what a few of them do. For example, Range has to do with the damage fall-off of a weapon, and Aim Assistance has to do with bullet magnetism. I'm sure there are YouTube videos and articles explaining each one of these stats in depth, but I haven't gone looking.
+
+### Impact
+Applies to most weapons, with the exception of GLs (grenade launchers) and rocket launchers.
+
+### Range
+Applies to most weapons, with the exception of GLs, rockets, combat bows and swords.
+
+### Stability
+Applies to most weapons, with the exception of glaives and swords.
+
+### Handling
+Applies to most weapons, with the exception of swords.
+
+### Reload Speed
+Applies to most weapons, with the exception of swords.
+
+### Aim Assistance
+Applies to most weapons, with the excpetion of swords.
+
+### Zoom
+Applies to most weapons, with the exception of swords.
+
+### Airborne Effectiveness
+Applies to most weapons, with the exception of swords.
+
+### Recoil Direction
+Applies to most weapons, with the exception of swords.
+
+### RPM
+Applies to most weapons, with the exception of bows, fusion rifles, linear fusion rifles and swords.
+
+### Magazine
+Applies to most weapons, with the exception of swords.
+
+### Accuracy and Draw Time
+Apply only to bows. Draw Time is measured in miliseconds (ms).
+
+### Charge Time
+Applies only to fusion rifles and linear fusion rifles. Measured in miliseconds (ms).
+
+### Shield Duration
+Applies only to glaives.
+
+### Blast Radius and Velocity
+Apply only to GLs and rockets.
+
+### Swing Speed, Charge Rate, Guard Resistance, Guard Efficiency, Guard Endurance and Ammo Capacity
+Apply only to swords.
+
+## Armor Stats (int-64)
+The last columns contain the attributes of armor pieces. Each of these stats influences the character's stats when the armor is equipped.
+
+### Mobility
+Influences character movement. For Hunters, influences class ability recharge rate.
+
+### Resilience
+Influences character damage resistance. For Titans, influences class ability recharge rate.
+
+### Recovery
+Influences character health regeneration. For Warlocks, influences class ability recharge rate.
+
+### Discipline
+Influences grenade ability recharge rate.
+
+### Intellect
+Influences super ability recharge rate.
+
+### Strength
+Influences melee ability recharge rate.
+
+### total_stat_roll
+Sum of all armor stats. On occasion, this will include the value of any armor mods that can increase the value of an armor stat.
 
 # Regarding the analysis
 My analysis will only begin once I finish the dataset, which will take a long time, as I mentioned above. Nonetheless, if you want to use the partial data for your own analysis, feel free to do so! I encourage anyone willing to use this dataset. If you find any errors, you can contact me through my email to let me know.
