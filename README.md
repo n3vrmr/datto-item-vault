@@ -53,7 +53,7 @@ Indicates what kind of item it is, usually Weapon or Armor.
 Indicates which kind of item it is within its type. For Armor, indicates which character class it belongs to. This name was chosen because it is very likely that Bungie utilized OOP to identify common attributes and functions of certain Weapon types.
 
 ## slot (string)
-Which character slot the item belongs to. For Weapons, can be either Kinetic, Energy or Power. For Armor, Helmet, Gauntlets, Chest Armor, Legs or Class Item.
+Which character slot the item belongs to. For Weapons, can be either Kinetic, Energy or Power. For Armor, Helmet, Gauntlets, Chest Armor, Leg Armor or Class Item.
 
 ## season (int-64)
 Indicates which Destiny 2 season this item is attributed to. This is determined by what icon appears on the weapon in the videos.
